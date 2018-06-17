@@ -9,4 +9,4 @@ function escada(tamanho){
     return lista;
   }
 
-  escada(tamanho);
+  console.log (function);
