@@ -1,13 +1,14 @@
 
-let tamanho = prompt ("Qual o tamanho para sua escada?");
+let tamanho = Number (prompt ("Qual o tamanho para sua escada?"));
+let degrau = prompt ("Digite o modelo do degrau.");
 
 function escada(tamanho){
 
     let lista = [];
-    let item = 1
+    let item = 0;
     
     while(item <= tamanho){
-      lista.push("#".repeat(item));
+      lista.push(degrau.repeat(item));
       item++;
     }
   
@@ -18,6 +19,7 @@ function escada(tamanho){
   }
   
 escada(tamanho);
+
 
 
 

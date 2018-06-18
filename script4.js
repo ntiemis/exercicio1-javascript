@@ -1,6 +1,17 @@
 
-let menina = ["Maria","Ana","Carolina","Amanda","Bruna"];
-let menino = ["Mario","Carlos","Fabio","Bruno","José"];
+let meninas = ["Maria","Ana","Carolina","Amanda","Bruna"];
+let meninos = ["Mario","Carlos","Fabio","Bruno","José"];
 
-console.log
+let numeroCasal = 1;
+let i = 0;
+let j = 0;
 
+while(i < meninos.length){
+    j = 0;
+    while(j < meninas.length){
+        console.log(`Casal ${numeroCasal}: ${meninos[i]} e ${meninas[j]}.`);
+        j++;
+        numeroCasal++;
+    }
+    i++;
+}
