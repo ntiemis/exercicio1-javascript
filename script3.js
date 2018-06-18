@@ -1,12 +1,14 @@
+let altura = prompt ("Qual o tamanho para sua escada?");
 
-let tamanho = prompt ("Qual o tamanho para sua escada?");
-
-function escada(tamanho){
+function escada(altura){
     let lista = [];
-    for(let icone = 1; linha <= tamanho; icone++){
-      lista.push(" ".repeat(tamanho - i) + "#".repeat(i));
+    for(let index = 1; index <= altura; index++){
+      lista.push("#".repeat(index))
     }
-    return lista;
+  
+    lista.forEach(function(item) {
+      console.log(item)
+    })
   }
-
-  console.log (function);
+  
+  escada(altura);
