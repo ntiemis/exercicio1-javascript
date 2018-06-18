@@ -1,8 +1,6 @@
 
-let meninas = {
-    Maria, Ana, Carolina, Amanda, Bruna
-}
+let menina = ["Maria","Ana","Carolina","Amanda","Bruna"];
+let menino = ["Mario","Carlos","Fabio","Bruno","José"];
 
-let meninos = {
-    Mario, Carlos, Fabio, Bruno, José
-}
+console.log
+
