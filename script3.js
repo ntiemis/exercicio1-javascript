@@ -19,25 +19,3 @@ function escada(tamanho){
   }
   
 escada(tamanho);
-
-
-
-
-/*let tamanho = prompt ("Qual o tamanho para sua escada?");
-
-function escada(tamanho){
-
-    let lista = [];
-    
-    for(let item = 1; item <= tamanho; item++){
-      lista.push("#".repeat(item))
-    }
-  
-    lista.forEach(function(altura) {
-      console.log(altura)
-    })
-
-  }
-  
-  escada(tamanho);*/
-  

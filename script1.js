@@ -19,7 +19,7 @@ else if (idade<22 || idade>55 || valor>renda*15 || valor<1000 || parcelas<3 || p
     }
 
 else {
-    alert(`Aprovado! Valor pago mensalmente será: ${mes}`);
+    alert(`Aprovado! Valor pago mensalmente será: R$ ${mes.toFixed(2)}, dando um total de R$ ${total.toFixed(2)}.`);
     cliente=true;
 }
 
